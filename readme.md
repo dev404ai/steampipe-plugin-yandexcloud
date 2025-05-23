@@ -1,3 +1,9 @@
+![Build](https://github.com/dev404ai/steampipe-plugin-yandexcloud/actions/workflows/go.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dev404ai/steampipe-plugin-yandexcloud)](https://goreportcard.com/report/github.com/dev404ai/steampipe-plugin-yandexcloud)
+![Go Version](https://img.shields.io/badge/go-1.20-blue)
+![License](https://img.shields.io/github/license/dev404ai/steampipe-plugin-yandexcloud)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/dev404ai/steampipe-plugin-yandexcloud)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/dev404ai/steampipe-plugin-yandexcloud/pulls)
 ![image](./steampipe-plugin-yandexcloud.jpg)
 
 # Yandex Cloud Plugin for Steampipe
