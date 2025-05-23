@@ -1,8 +1,6 @@
 module github.com/dev404ai/steampipe-plugin-yandexcloud
 
-go 1.23.0
-
-toolchain go1.24.3
+go 1.24
 
 require (
 	github.com/golang-jwt/jwt/v4 v4.5.2
