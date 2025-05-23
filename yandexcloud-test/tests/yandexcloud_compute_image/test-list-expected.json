@@ -1,0 +1,12 @@
+[
+  {
+    "image_id": "example-image-id-1",
+    "name": "example-image-1",
+    "folder_id": "example-folder-id"
+  },
+  {
+    "image_id": "example-image-id-2",
+    "name": "example-image-2",
+    "folder_id": "example-folder-id"
+  }
+] 

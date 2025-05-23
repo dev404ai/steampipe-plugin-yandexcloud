@@ -1,0 +1,28 @@
+# Editor cache and lock files
+*.swp
+*.swo
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+
+# Ignore file types
+.idea/
+.DS_Store
+.vscode
+
+_locale
+steampipe-plugin-yandexcloud.plugin
+
+go.mod.local
+go.sum.local

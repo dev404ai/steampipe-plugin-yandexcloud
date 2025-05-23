@@ -1,0 +1,1 @@
+SELECT * FROM yandexcloud_billing_budget WHERE id = 'test-budget-id'; 

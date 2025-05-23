@@ -1,0 +1,1 @@
+select billing_account_id, billing_account_name from yandexcloud_billing_resource_usage where billing_account_id = 'non-existent-id'; 

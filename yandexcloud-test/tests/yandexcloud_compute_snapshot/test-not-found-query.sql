@@ -1,0 +1,1 @@
+select * from yandexcloud_compute_snapshot where snapshot_id = 'fake-id-not-exist-12345'; 

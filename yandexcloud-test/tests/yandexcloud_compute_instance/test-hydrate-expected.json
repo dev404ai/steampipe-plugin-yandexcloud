@@ -1,0 +1,14 @@
+[
+  {
+    "name": "test-instance",
+    "instance_id": "test-id",
+    "cores": "2",
+    "memory": "2147483648",
+    "boot_disk_id": "disk-123",
+    "network_interfaces": [],
+    "labels": {},
+    "metadata": {},
+    "fqdn": "test-instance.auto.internal",
+    "hostname": "test-instance"
+  }
+] 

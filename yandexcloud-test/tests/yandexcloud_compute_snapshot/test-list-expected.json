@@ -1,0 +1,12 @@
+[
+  {
+    "snapshot_id": "example-snapshot-id-1",
+    "name": "example-snapshot-1",
+    "folder_id": "example-folder-id"
+  },
+  {
+    "snapshot_id": "example-snapshot-id-2",
+    "name": "example-snapshot-2",
+    "folder_id": "example-folder-id"
+  }
+] 

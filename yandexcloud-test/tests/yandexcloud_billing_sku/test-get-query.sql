@@ -1,0 +1,1 @@
+SELECT * FROM yandexcloud_billing_sku WHERE id = 'test-sku-id'; 

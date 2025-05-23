@@ -1,0 +1,12 @@
+[
+  {
+    "name": "test-instance",
+    "instance_id": "test-id",
+    "status": "RUNNING",
+    "zone": "ru-central1-a",
+    "folder_id": "test-folder",
+    "description": "Test instance",
+    "platform_id": "standard-v3",
+    "created_at": "2024-01-01T00:00:00Z"
+  }
+] 

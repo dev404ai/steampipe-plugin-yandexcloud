@@ -1,0 +1,14 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# Steampipe/SQL test artifacts
+*.actual.json
+*.diff
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db 

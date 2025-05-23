@@ -1,0 +1,41 @@
+# .goreleaser.yml for steampipe-plugin-yandexcloud
+# See https://goreleaser.com/customization/build/ for details
+
+before:
+  hooks:
+    - go mod tidy
+
+builds:
+  - id: yandexcloud
+    main: .
+    binary: yandexcloud.plugin
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    env:
+      - CGO_ENABLED=0
+      - GO111MODULE=on
+    ldflags:
+      - -s -w -X "main.version={{.Version}}"
+    flags:
+      - -tags=netgo
+
+archives:
+  - format: gz
+    name_template: "yandexcloud_{{ .Os }}_{{ .Arch }}"
+    files:
+      - none*
+
+checksum:
+  name_template: "yandexcloud_{{ .Version }}_SHA256SUMS"
+  algorithm: sha256
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:" 
