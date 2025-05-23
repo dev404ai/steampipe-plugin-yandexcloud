@@ -6,8 +6,8 @@ toolchain go1.24.3
 
 require (
 	github.com/golang-jwt/jwt/v4 v4.5.2
+	github.com/hashicorp/go-hclog v1.2.2
 	github.com/turbot/steampipe-plugin-sdk/v4 v4.1.13
-	github.com/yandex-cloud/go-sdk v0.89.0
 )
 
 require (
@@ -34,9 +34,6 @@ require (
 	github.com/golang/glog v1.2.1 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
-	github.com/hashicorp/errwrap v1.0.0 // indirect
-	github.com/hashicorp/go-hclog v1.2.2 // indirect
-	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/go-plugin v1.4.4 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.12.0 // indirect
@@ -64,7 +61,6 @@ require (
 	github.com/stevenle/topsort v0.0.0-20130922064739-8130c1d7596b // indirect
 	github.com/tkrajina/go-reflector v0.5.4 // indirect
 	github.com/turbot/go-kit v0.4.0 // indirect
-	github.com/yandex-cloud/go-genproto v0.4.0 // indirect
 	github.com/zclconf/go-cty v1.10.0 // indirect
 	go.opentelemetry.io/otel v1.7.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/internal/retry v1.7.0 // indirect
